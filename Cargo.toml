@@ -7,7 +7,17 @@ edition = "2021"
 image = "0.25"
 clap = { version = "4.5", features = ["derive"] }
 anyhow = "1.0"
+cgmath = "0.18.0"
+rand = "0.8.5"
 
 [[bin]]
 name = "mlaa"
 path = "src/bin/mlaa.rs"
+
+[[bin]]
+name = "ibl"
+path = "src/bin/ibl.rs"
+
+[[bin]]
+name = "playground"
+path = "src/bin/playground.rs"
